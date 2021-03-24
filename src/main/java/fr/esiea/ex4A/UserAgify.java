@@ -8,10 +8,7 @@ public class UserAgify {
     public final int count;
     public final String country_id;
 
-    public UserAgify(@JsonProperty("name") String name,
-                     @JsonProperty("age") int age,
-                     @JsonProperty("count") int count,
-                     @JsonProperty("country_id") String country_id) {
+    public UserAgify(@JsonProperty("name") String name, @JsonProperty("age") int age, @JsonProperty("count") int count, @JsonProperty("country_id") String country_id) {
         this.name = name;
         this.age = age;
         this.count = count;
